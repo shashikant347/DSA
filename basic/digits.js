@@ -1,19 +1,19 @@
-// write a fuction that return the count of digit in a number 
+write a fuction that return the count of digit in a number 
 
 
-// function  digitCount(n){
-//     let count = 0;
-//     if (n==0) return 1;
-//     //  n= Math.abs(n) it is change the negaive number to postive
-//     while(n !== 0){
-//          n = Math.floor(n/10)
-//          count ++
-//     }
-//     return count
-// }
+function  digitCount(n){
+    let count = 0;
+    if (n==0) return 1;
+    //  n= Math.abs(n) it is change the negaive number to postive
+    while(n !== 0){
+         n = Math.floor(n/10)
+         count ++
+    }
+    return count
+}
 
 
-// console.log(digitCount(-0))
+console.log(digitCount(-0))
 
 
 
